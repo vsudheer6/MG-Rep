@@ -1,0 +1,94 @@
+WORK BENCH 
+
+It is a web based tool designed for salesforce administrators and developers which allows them to interact with salesforce organization or force API to update, delete, insert and export data. 
+
+How to use workbench:
+
+1.	First, navigate to the link http://workbench.developerforce.com/login.php. Then follow the steps.
+
+2.	Log in to Workbench in Salesforce (Salesforce Workforce) with the account credentials given by salesforce.com. 
+
+3.	Then select the environment and API version that is required. After selection, click on Login with Salesforce.
+
+4.	After successfully logging in, you can select from Jump to menu and Object menu. You will be provided with various options.
+•	Apex Class
+•	Apex Page 
+•	Workflow
+•	Approval
+•	SOSL Query
+•	SOQL Query
+•	Insert
+•	Update 
+•	Delete
+•	Undo
+•	Upsert
+            Choose your desired option and click on Select.
+5.	On top of the menu bar, you will have 5 options, info, queries, data, migration, utilities.
+
+6.	First select info. There are three sections under this menu
+•	Standard and Custom Objects: Here we can select an object, after selecting, related data is displayed. This menu helps in finding the relevant data which the Salesforce Administrator or Developer is looking for.
+•	Metadata Types and Components: Here, we can choose any metadata component from the options provided; Apex class, Approval, Workflow, Apex Page.
+•	Session Information: This helps the user in displaying the session of the user. If the System Administrator is using it, he or she can end or cancel any session in Salesforce Workbench.
+
+7.	Next, select Queries. There are two queries under this menu:
+•	SOSL Query
+•	SOQL Query
+From the Query section, we can select the objects and fields whichever we want and apply them to build a SOQL query. We can view the records in a list form or in a matrix form which can be downloaded in the form of CSV.
+8.	The next option is Data. This option is used to select a particular object and perform the following operations:
+•	Insert 
+•	Update
+•	Delete
+•	Undo 
+•	Upsert
+
+We can also upload records from ZIP or CSV files. The records can be viewed by simply clicking on the View option present in the Salesforce button, this redirects to the organization.
+9.	The next option is Migration. This menu helps in retrieving data. We can use package.xml and this directly deploy it in the Salesforce Organization.
+
+
+Retrieve operation using Work Bench:: 
+
+a)	Prepare an xml file. 
+b)	Visit work bench site and login. 
+c)	Click the migration tab. 
+d)	Select the Retrieve option. 
+e)	In unpackaged manifest section click the ‘browse’ button then select the package xml file to obtain the component attributes. 
+f)	Click the next button. 
+g)	Click the retrieve button. 
+h)	Click download zip file remember the location for any future deployment.  
+
+Deploy operation using Work Bench:
+
+a)	Create a folder the package XML file in the root and a sublevel folder with the component name. 
+b)	Zip the folder. 
+c)	Visit the work bench site and login. Not required if already login. 
+d)	Click the migration tab. 
+e)	Select the Deploy section. 
+f)	Click the choose file option. 
+g)	Check the following if applicable to your scenario. 
+•	  Auto update package
+•	  Checkonly
+•	  Ignore warnings 
+•	Perform retrieves 
+•	Purge on delete 
+•	Roll back on error 
+•	Single package 
+h)	Confirm all of the options for deployment. 
+i)	Click on the deploy button when ready
+j)	Wait for the process to become completed. 
+k)	Confirm the results deploy successfully, if not check the file for any errors. 
+
+10.	The next option is Utilities. This menu contains the following:
+
+•	REST Explorer: This option helps in choosing the HTTP method to perform the Rest API service.
+•	Apex Execute: We can create, delete, and update a record using this. This helps in creating new objects containing null values for the fields.
+•	Password Management: The password can be set, change and reset by the Salesforce Administration using this method.
+
+
+ADVANTAGES:
+1.	Salesforce Workbench Login
+Salesforce in Workforce supports standard username and password login with session ID or OAuth 2.0 Remote access login. OAuth enables users to log in to Salesforce Workbench and authenticated while using Salesforce without giving the username and password to Salesforce Workbench.
+2.	Data Management
+Salesforce in Workforce allows you to edit and view single records just by clicking on the ID in query and search results. And if you know the id, then you can directly go to the operation we need on the Data menu and paste the ID into the single record field.Salesforce Workbench helps in uploading a ZIP file to insert, update, upsert or delete binary files. With the help of insert, update, Smart Lookup allows you to provide foreign external ID lookup fields which find the relevant Salesforce IDs automatically.
+3.	Easy Data Extraction
+Workbench in Salesforce helps in data extraction like removing information related to users who have been identified such as roles, profiles, and permissions.
+
